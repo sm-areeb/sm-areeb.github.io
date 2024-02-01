@@ -7,11 +7,16 @@
     "start": "parcel",
     "build": "parcel build"
   },
+  "staticFiles": {
+    "staticPath": "static",
+    "staticOutPath": "static"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.11.0",
+    "parcel-reporter-static-files-copy": "^1.5.3",
     "process": "^0.11.10"
   },
   "dependencies": {
