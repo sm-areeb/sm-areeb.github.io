@@ -121,10 +121,10 @@
       ]
     ],
     "photos": [
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/alps-205428_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/alps-205429_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/alps-205430_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/alps-205431_1280.jpg"
+      "/static/1.jpg",
+      "/static/2.jpg",
+      "/static/3.jpg",
+      "/static/4.jpg"
     ]
   },
   {
@@ -301,16 +301,10 @@
       ]
     ],
     "photos": [
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205434_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205435_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205436_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205437_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205438_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205439_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205440_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205441_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205442_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/northern-lights-205443_1280.jpg"
+      "/static/2.jpg",
+      "/static/3.jpg",
+      "/static/4.jpg",
+      "/static/5.jpg"
     ]
   },
   {
@@ -481,16 +475,10 @@
       ]
     ],
     "photos": [
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/tropical-beach-205444_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/water-sports-205445_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/spa-treatment-205446_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/tropical-beach-205447_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/water-sports-205448_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/spa-treatment-205449_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/tropical-beach-205450_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/water-sports-205451_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/spa-treatment-205452_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/02/12/15/33/tropical-beach-205453_1280.jpg"
+      "/static/3.jpg",
+      "/static/4.jpg",
+      "/static/5.jpg",
+      "/static/6.jpg"
     ]
   },
   {
@@ -661,16 +649,10 @@
       ]
     ],
     "photos": [
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181518_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-sports-3181520_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/hot-cocoa-3181521_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181522_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-sports-3181523_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/hot-cocoa-3181524_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181525_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-sports-3181526_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/hot-cocoa-3181527_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181528_1280.jpg"
+      "/static/4.jpg",
+      "/static/5.jpg",
+      "/static/6.jpg",
+      "/static/7.jpg"
     ]
   },
   {
@@ -841,16 +823,10 @@
       ]
     ],
     "photos": [
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181518_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-sports-3181520_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/hot-cocoa-3181521_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181522_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-sports-3181523_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/hot-cocoa-3181524_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181525_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-sports-3181526_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/hot-cocoa-3181527_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181528_1280.jpg"
+      "/static/5.jpg",
+      "/static/6.jpg",
+      "/static/7.jpg",
+      "/static/8.jpg"
     ]
   },
   {
@@ -1021,16 +997,10 @@
       ]
     ],
     "photos": [
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181518_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-sports-3181520_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/hot-cocoa-3181521_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181522_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-sports-3181523_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/hot-cocoa-3181524_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181525_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-sports-3181526_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/hot-cocoa-3181527_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/winter-scenery-3181528_1280.jpg"
+      "/static/6.jpg",
+      "/static/7.jpg",
+      "/static/8.jpg",
+      "/static/9.jpg"
     ]
   },
   {
@@ -1201,16 +1171,10 @@
       ]
     ],
     "photos": [
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/dog-sledding-3181529_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/dog-sledding-3181530_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/traditional-finnish-cuisine-3181531_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/dog-sledding-3181532_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/traditional-finnish-cuisine-3181533_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/dog-sledding-3181534_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/dog-sledding-3181535_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/dog-sledding-3181536_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/traditional-finnish-cuisine-3181537_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/dog-sledding-3181538_1280.jpg"
+      "/static/7.jpg",
+      "/static/8.jpg",
+      "/static/9.jpg",
+      "/static/10.jpg"
     ]
   },
   {
@@ -1381,16 +1345,10 @@
       ]
     ],
     "photos": [
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/glacier-hiking-3181539_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/glacier-hiking-3181540_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/traditional-alaskan-cuisine-3181541_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/glacier-hiking-3181542_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/traditional-alaskan-cuisine-3181543_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/glacier-hiking-3181544_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/glacier-hiking-3181545_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/glacier-hiking-3181546_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/traditional-alaskan-cuisine-3181547_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/12/12/16/02/glacier-hiking-3181548_1280.jpg"
+      "/static/8.jpg",
+      "/static/9.jpg",
+      "/static/10.jpg",
+      "/static/11.jpg"
     ]
   }
 ]
