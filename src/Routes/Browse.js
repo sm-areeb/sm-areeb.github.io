@@ -9,8 +9,8 @@ export default Browse = () => {
     (async () => {
       const response = await fetch("/static/mockdata.json");
       const responseData = await response.json();
-      const localReviews = JSON.parse(localStorage.getItem("reviews") || []);
-      if (localReviews.length) {
+      const localReviews = JSON.parse(localStorage.getItem("reviews"));
+      if (localReviews?.length) {
         localReviews.forEach((pkg) => {
           const pkgFromServer = responseData.find((p) => p.id == pkg.id);
           if (pkgFromServer) pkgFromServer.reviews.push(pkg.review);
