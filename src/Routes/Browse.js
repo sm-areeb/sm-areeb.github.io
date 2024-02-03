@@ -1,16 +1,27 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
 
 export default Browse = () => {
   const [packages, setPackages] = useState([]);
+  const navigate = useNavigate();
   useEffect(() => {
     (async () => {
       const response = await fetch("/static/mockdata.json");
       const responseData = await response.json();
+      const localReviews = JSON.parse(localStorage.getItem("reviews") || []);
+      if (localReviews.length) {
+        localReviews.forEach((pkg) => {
+          const pkgFromServer = responseData.find((p) => p.id == pkg.id);
+          if (pkgFromServer) pkgFromServer.reviews.push(pkg.review);
+        });
+      }
       setPackages(responseData);
     })();
   }, []);
-  const handleClick = () => {};
+  const handleClick = (e) => {
+    navigate("/details/" + e, { state: packages.find((p) => p.id == e) });
+  };
 
   return (
     <div className="my-5 browse">
