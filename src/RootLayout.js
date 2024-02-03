@@ -6,8 +6,10 @@ export default RootLayout = () => {
         header <Link to="">Browse Packages</Link> |{" "}
         <Link to="/create">Create a Package</Link>
       </header>
-      <main>
-        <Outlet />
+      <main className="container is-fluid">
+        <div className="container">
+          <Outlet />
+        </div>
       </main>
       <footer>footer</footer>
     </>
