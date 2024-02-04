@@ -4,9 +4,9 @@ export default RootLayout = () => {
     <>
       <header className="py-3">
         <nav className="level">
-          <p className="level-item has-text-centered">
+          <div className="level-item has-text-centered">
             <h3 className="title">Book a Trip</h3>
-          </p>
+          </div>
           <p className="level-item has-text-centered">
             <Link to="" className="link is-info">
               Browse Packages

@@ -25,7 +25,7 @@ export default Browse = () => {
 
   return (
     <div className="my-5 browse">
-      <h1 className="title mb-5">Browse Packages</h1>
+      <h1 className="title mb-5 has-text-centered">Browse Packages</h1>
       <div className="columns is-flex-wrap-wrap">
         {packages.map((p) => {
           const cardProps = {

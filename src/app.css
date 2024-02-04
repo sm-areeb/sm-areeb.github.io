@@ -16,3 +16,7 @@
     text-align: center;
     padding-top: 2em;
 }
+.details-carousel {
+    max-width: 650px;
+    margin: 0 auto;
+}
