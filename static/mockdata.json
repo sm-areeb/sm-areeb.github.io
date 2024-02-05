@@ -1,0 +1,1354 @@
+[
+  {
+    "id": 1,
+    "name": "Winter Wonderland",
+    "description": "Relax and unwind on our Winter Wonderland package. Stay in luxurious chalets, enjoy winter sports, spa treatments, and delicious hot chocolate!",
+    "origin": "Innsbruck, Austria",
+    "destinations": ["Kitzbuhel, Austria", "Mayrhofen, Austria"],
+    "duration": 10,
+    "suggestedPrice": 2800,
+    "discountedPrice": 2500,
+    "accommodations": [
+      {
+        "name": "Chalet 1",
+        "duration": 5,
+        "location": "Kitzbuhel, Austria",
+        "rating": 5
+      },
+      {
+        "name": "Chalet 2",
+        "duration": 5,
+        "location": "Mayrhofen, Austria",
+        "rating": 5
+      }
+    ],
+    "bookings": [
+      {
+        "date": "11-02-2024",
+        "available": 0
+      },
+      {
+        "date": "10-02-2024",
+        "available": 0
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userid": 1234254535,
+        "userName": "User1",
+        "rating": 1,
+        "review": "The chalets are cozy and luxurious, and the winter sports in Kitzbuhel and Mayrhofen were amazing!"
+      },
+      {
+        "id": 2,
+        "userid": 1234254545,
+        "userName": "User2",
+        "rating": 5,
+        "review": "The spa treatments were a much-needed relaxation after a day of skiing!"
+      }
+    ],
+    "itinerary": [
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Chalet 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Skiing in Kitzbuhel"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Kitzbuhel"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Chalet 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Skiing in Mayrhofen"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Mayrhofen"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Chalet 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Snowshoeing in Kitzbuhel"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Kitzbuhel"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Chalet 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Snowshoeing in Mayrhofen"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Mayrhofen"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Chalet 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Kitzbuhel"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Innsbruck"
+        }
+      ]
+    ],
+    "photos": [
+      "/static/1.jpg",
+      "/static/2.jpg",
+      "/static/3.jpg",
+      "/static/4.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Northern Lights Adventure",
+    "description": "Experience the magical Northern Lights in Iceland! Stay in cozy cabins, go on guided tours, soak in hot springs, and capture stunning photos!",
+    "origin": "Reykjavik, Iceland",
+    "destinations": ["Husafell, Iceland", "Myvatn, Iceland"],
+    "duration": 12,
+    "suggestedPrice": 3500,
+    "discountedPrice": 3000,
+    "accommodations": [
+      {
+        "name": "Cabin 1",
+        "duration": 6,
+        "location": "Husafell, Iceland",
+        "rating": 5
+      },
+      {
+        "name": "Cabin 2",
+        "duration": 6,
+        "location": "Myvatn, Iceland",
+        "rating": 5
+      }
+    ],
+    "bookings": [
+      {
+        "date": "01-01-2024",
+        "available": 15
+      },
+      {
+        "date": "10-01-2024",
+        "available": 0
+      },
+      {
+        "date": "01-02-2024",
+        "available": 15
+      },
+      {
+        "date": "10-02-2024",
+        "available": 0
+      },
+      {
+        "date": "01-03-2024",
+        "available": 15
+      },
+      {
+        "date": "10-03-2024",
+        "available": 0
+      },
+      {
+        "date": "15-02-2024",
+        "available": 15
+      },
+      {
+        "date": "25-02-2024",
+        "available": 0
+      },
+      {
+        "date": "15-03-2024",
+        "available": 15
+      },
+      {
+        "date": "25-03-2024",
+        "available": 0
+      }
+    ],
+    "reviews": [
+      {
+        "id": 3,
+        "userid": 1234254535,
+        "userName": "User3",
+        "rating": 5,
+        "review": "The cabins were cozy and the Northern Lights were breathtaking!"
+      },
+      {
+        "id": 4,
+        "userid": 1234254545,
+        "userName": "User4",
+        "rating": 5,
+        "review": "The hot springs were a perfect way to relax after a day of exploring!"
+      }
+    ],
+    "itinerary": [
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Guided Northern Lights Tour"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Husafell"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Guided Northern Lights Tour"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Myvatn"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Hot Spring Tour"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Husafell"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Hot Spring Tour"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Myvatn"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Guided Northern Lights Tour"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Departure from Husafell"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Guided Northern Lights Tour"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Departure from Myvatn"
+        }
+      ],
+      [
+        {
+          "time": "15:00PM",
+          "activity": "Arrival in Reykjavik"
+        }
+      ]
+    ],
+    "photos": [
+      "/static/2.jpg",
+      "/static/3.jpg",
+      "/static/4.jpg",
+      "/static/5.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tropical Escape",
+    "description": "Relax and unwind on our Tropical Escape package! Stay at luxurious beachfront villas, enjoy water sports, spa treatments and delicious cocktails!",
+    "origin": "Phuket, Thailand",
+    "destinations": ["Koh Phi Phi", "Krabi"],
+    "duration": 14,
+    "suggestedPrice": 4000,
+    "discountedPrice": 3500,
+    "accommodations": [
+      {
+        "name": "Villa 1",
+        "duration": 7,
+        "location": "Koh Phi Phi",
+        "rating": 5
+      },
+      {
+        "name": "Villa 2",
+        "duration": 7,
+        "location": "Krabi",
+        "rating": 5
+      }
+    ],
+    "bookings": [
+      {
+        "date": "01-01-2024",
+        "available": 15
+      },
+      {
+        "date": "10-01-2024",
+        "available": 0
+      },
+      {
+        "date": "01-02-2024",
+        "available": 15
+      },
+      {
+        "date": "10-02-2024",
+        "available": 0
+      },
+      {
+        "date": "01-03-2024",
+        "available": 15
+      },
+      {
+        "date": "10-03-2024",
+        "available": 0
+      },
+      {
+        "date": "15-02-2024",
+        "available": 15
+      },
+      {
+        "date": "25-02-2024",
+        "available": 0
+      },
+      {
+        "date": "15-03-2024",
+        "available": 15
+      },
+      {
+        "date": "25-03-2024",
+        "available": 0
+      }
+    ],
+    "reviews": [
+      {
+        "id": 5,
+        "userid": 1234254535,
+        "userName": "User5",
+        "rating": 5,
+        "review": "The villas were amazing and the water sports were so much fun!"
+      },
+      {
+        "id": 6,
+        "userid": 1234254545,
+        "userName": "User6",
+        "rating": 5,
+        "review": "The spa treatments were so relaxing!"
+      }
+    ],
+    "itinerary": [
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Villa 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Water Sports at Koh Phi Phi"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Koh Phi Phi"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Villa 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Water Sports at Krabi"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Krabi"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Villa 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Spa Treatment at Koh Phi Phi"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Koh Phi Phi"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Villa 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Spa Treatment at Krabi"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Krabi"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Villa 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Koh Phi Phi"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Phuket"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Villa 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Krabi"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Phuket"
+        }
+      ]
+    ],
+    "photos": [
+      "/static/3.jpg",
+      "/static/4.jpg",
+      "/static/5.jpg",
+      "/static/6.jpg"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Winter Escape",
+    "description": "Escape the cold and enjoy a winter wonderland in our Winter Escape package! Stay in cozy cabins, enjoy winter sports, and indulge in delicious hot cocoa and fondue!",
+    "origin": "Whistler, Canada",
+    "destinations": ["Whistler", "Banff"],
+    "duration": 14,
+    "suggestedPrice": 3500,
+    "discountedPrice": 2700,
+    "accommodations": [
+      {
+        "name": "Cabin 1",
+        "duration": 7,
+        "location": "Whistler",
+        "rating": 5
+      },
+      {
+        "name": "Cabin 2",
+        "duration": 7,
+        "location": "Banff",
+        "rating": 5
+      }
+    ],
+    "bookings": [
+      {
+        "date": "01-01-2024",
+        "available": 15
+      },
+      {
+        "date": "10-01-2024",
+        "available": 0
+      },
+      {
+        "date": "01-02-2024",
+        "available": 15
+      },
+      {
+        "date": "10-02-2024",
+        "available": 0
+      },
+      {
+        "date": "01-03-2024",
+        "available": 15
+      },
+      {
+        "date": "10-03-2024",
+        "available": 0
+      },
+      {
+        "date": "15-02-2024",
+        "available": 15
+      },
+      {
+        "date": "25-02-2024",
+        "available": 0
+      },
+      {
+        "date": "15-03-2024",
+        "available": 15
+      },
+      {
+        "date": "25-03-2024",
+        "available": 0
+      }
+    ],
+    "reviews": [
+      {
+        "id": 3,
+        "userid": 1234254535,
+        "userName": "User3",
+        "rating": 5,
+        "review": "The cabins were cozy and the Northern Lights were breathtaking!"
+      },
+      {
+        "id": 4,
+        "userid": 1234254545,
+        "userName": "User4",
+        "rating": 5,
+        "review": "The hot springs were a perfect way to relax after a day of exploring!"
+      }
+    ],
+    "itinerary": [
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Winter Sports at Whistler"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Whistler"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Winter Sports at Banff"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Banff"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Hot Cocoa and Fondue at Whistler"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Whistler"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Hot Cocoa and Fondue at Banff"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Banff"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Whistler"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Calgary"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Banff"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Calgary"
+        }
+      ]
+    ],
+    "photos": [
+      "/static/4.jpg",
+      "/static/5.jpg",
+      "/static/6.jpg",
+      "/static/7.jpg"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Winter Adventure",
+    "description": "Experience the thrill of winter in our Winter Adventure package! Stay in cozy cabins, enjoy winter sports, and indulge in delicious hot cocoa and fondue!",
+    "origin": "Jasper, Canada",
+    "destinations": ["Jasper", "Banff"],
+    "duration": 14,
+    "suggestedPrice": 3200,
+    "discountedPrice": 2000,
+    "accommodations": [
+      {
+        "name": "Cabin 1",
+        "duration": 7,
+        "location": "Jasper",
+        "rating": 5
+      },
+      {
+        "name": "Cabin 2",
+        "duration": 7,
+        "location": "Banff",
+        "rating": 5
+      }
+    ],
+    "bookings": [
+      {
+        "date": "01-01-2024",
+        "available": 15
+      },
+      {
+        "date": "10-01-2024",
+        "available": 0
+      },
+      {
+        "date": "01-02-2024",
+        "available": 15
+      },
+      {
+        "date": "10-02-2024",
+        "available": 0
+      },
+      {
+        "date": "01-03-2024",
+        "available": 15
+      },
+      {
+        "date": "10-03-2024",
+        "available": 0
+      },
+      {
+        "date": "15-02-2024",
+        "available": 15
+      },
+      {
+        "date": "25-02-2024",
+        "available": 0
+      },
+      {
+        "date": "15-03-2024",
+        "available": 15
+      },
+      {
+        "date": "25-03-2024",
+        "available": 0
+      }
+    ],
+    "reviews": [
+      {
+        "id": 3,
+        "userid": 1234254535,
+        "userName": "User3",
+        "rating": 1,
+        "review": "The cabins were cozy and the Northern Lights were breathtaking!"
+      },
+      {
+        "id": 4,
+        "userid": 1234254545,
+        "userName": "User4",
+        "rating": 5,
+        "review": "The hot springs were a perfect way to relax after a day of exploring!"
+      }
+    ],
+    "itinerary": [
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Winter Sports in Jasper"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Jasper"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Winter Sports in Banff"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Banff"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Hot Cocoa and Fondue in Jasper"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Jasper"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Hot Cocoa and Fondue in Banff"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Banff"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Jasper"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Calgary"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Banff"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Calgary"
+        }
+      ]
+    ],
+    "photos": [
+      "/static/5.jpg",
+      "/static/6.jpg",
+      "/static/7.jpg",
+      "/static/8.jpg"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Snowy Adventure",
+    "description": "Experience the thrill of winter in our Snowy Adventure package! Stay in cozy cabins, enjoy winter sports, and indulge in delicious hot cocoa and fondue!",
+    "origin": "Canmore, Canada",
+    "destinations": ["Canmore", "Lake Louise"],
+    "duration": 14,
+    "suggestedPrice": 3400,
+    "discountedPrice": 2400,
+    "accommodations": [
+      {
+        "name": "Cabin 1",
+        "duration": 7,
+        "location": "Canmore",
+        "rating": 5
+      },
+      {
+        "name": "Cabin 2",
+        "duration": 7,
+        "location": "Lake Louise",
+        "rating": 5
+      }
+    ],
+    "bookings": [
+      {
+        "date": "01-01-2024",
+        "available": 15
+      },
+      {
+        "date": "10-01-2024",
+        "available": 0
+      },
+      {
+        "date": "01-02-2024",
+        "available": 15
+      },
+      {
+        "date": "10-02-2024",
+        "available": 0
+      },
+      {
+        "date": "01-03-2024",
+        "available": 15
+      },
+      {
+        "date": "10-03-2024",
+        "available": 0
+      },
+      {
+        "date": "15-02-2024",
+        "available": 15
+      },
+      {
+        "date": "25-02-2024",
+        "available": 0
+      },
+      {
+        "date": "15-03-2024",
+        "available": 15
+      },
+      {
+        "date": "25-03-2024",
+        "available": 0
+      }
+    ],
+    "reviews": [
+      {
+        "id": 3,
+        "userid": 1234254535,
+        "userName": "User3",
+        "rating": 5,
+        "review": "The cabins were cozy and the Northern Lights were breathtaking!"
+      },
+      {
+        "id": 4,
+        "userid": 1234254545,
+        "userName": "User4",
+        "rating": 5,
+        "review": "The hot springs were a perfect way to relax after a day of exploring!"
+      }
+    ],
+    "itinerary": [
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Winter Sports in Canmore"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Canmore"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Winter Sports in Lake Louise"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Lake Louise"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Hot Cocoa and Fondue in Canmore"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Canmore"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Hot Cocoa and Fondue in Lake Louise"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Lake Louise"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Canmore"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Calgary"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Lake Louise"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Calgary"
+        }
+      ]
+    ],
+    "photos": [
+      "/static/6.jpg",
+      "/static/7.jpg",
+      "/static/8.jpg",
+      "/static/9.jpg"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Arctic Adventure",
+    "description": "Experience the beauty of the Arctic in our Arctic Adventure package! Stay in cozy cabins, go dog sledding, and enjoy traditional Finnish cuisine!",
+    "origin": "Rovaniemi, Finland",
+    "destinations": ["Rovaniemi", "Saariselkä"],
+    "duration": 14,
+    "suggestedPrice": 1500,
+    "discountedPrice": 1200,
+    "accommodations": [
+      {
+        "name": "Cabin 1",
+        "duration": 7,
+        "location": "Rovaniemi",
+        "rating": 5
+      },
+      {
+        "name": "Cabin 2",
+        "duration": 7,
+        "location": "Saariselkä",
+        "rating": 5
+      }
+    ],
+    "bookings": [
+      {
+        "date": "01-01-2024",
+        "available": 15
+      },
+      {
+        "date": "10-01-2024",
+        "available": 0
+      },
+      {
+        "date": "01-02-2024",
+        "available": 15
+      },
+      {
+        "date": "10-02-2024",
+        "available": 0
+      },
+      {
+        "date": "01-03-2024",
+        "available": 15
+      },
+      {
+        "date": "10-03-2024",
+        "available": 0
+      },
+      {
+        "date": "15-02-2024",
+        "available": 15
+      },
+      {
+        "date": "25-02-2024",
+        "available": 0
+      },
+      {
+        "date": "15-03-2024",
+        "available": 15
+      },
+      {
+        "date": "25-03-2024",
+        "available": 0
+      }
+    ],
+    "reviews": [
+      {
+        "id": 3,
+        "userid": 1234254535,
+        "userName": "User3",
+        "rating": 5,
+        "review": "The cabins were cozy and the Northern Lights were breathtaking!"
+      },
+      {
+        "id": 4,
+        "userid": 1234254545,
+        "userName": "User4",
+        "rating": 5,
+        "review": "The hot springs were a perfect way to relax after a day of exploring!"
+      }
+    ],
+    "itinerary": [
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Dog Sledding in Rovaniemi"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Rovaniemi"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Dog Sledding in Saariselkä"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Saariselkä"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Traditional Finnish Cuisine in Rovaniemi"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Rovaniemi"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Traditional Finnish Cuisine in Saariselkä"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Saariselkä"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Rovaniemi"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Helsinki"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Saariselkä"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Helsinki"
+        }
+      ]
+    ],
+    "photos": [
+      "/static/7.jpg",
+      "/static/8.jpg",
+      "/static/9.jpg",
+      "/static/10.jpg"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Alaskan Adventure",
+    "description": "Experience the beauty of Alaska in our Alaskan Adventure package! Stay in cozy cabins, go on glacier hikes, and enjoy traditional Alaskan cuisine!",
+    "origin": "Anchorage, Alaska",
+    "destinations": ["Anchorage", "Denali National Park"],
+    "duration": 14,
+    "suggestedPrice": 6000,
+    "discountedPrice": 5500,
+    "accommodations": [
+      {
+        "name": "Cabin 1",
+        "duration": 7,
+        "location": "Anchorage",
+        "rating": 5
+      },
+      {
+        "name": "Cabin 2",
+        "duration": 7,
+        "location": "Denali National Park",
+        "rating": 5
+      }
+    ],
+    "bookings": [
+      {
+        "date": "01-01-2024",
+        "available": 15
+      },
+      {
+        "date": "10-01-2024",
+        "available": 0
+      },
+      {
+        "date": "01-02-2024",
+        "available": 15
+      },
+      {
+        "date": "10-02-2024",
+        "available": 0
+      },
+      {
+        "date": "01-03-2024",
+        "available": 15
+      },
+      {
+        "date": "10-03-2024",
+        "available": 0
+      },
+      {
+        "date": "15-02-2024",
+        "available": 15
+      },
+      {
+        "date": "25-02-2024",
+        "available": 0
+      },
+      {
+        "date": "15-03-2024",
+        "available": 15
+      },
+      {
+        "date": "25-03-2024",
+        "available": 0
+      }
+    ],
+    "reviews": [
+      {
+        "id": 3,
+        "userid": 1234254535,
+        "userName": "User3",
+        "rating": 5,
+        "review": "The cabins were cozy and the Northern Lights were breathtaking!"
+      },
+      {
+        "id": 4,
+        "userid": 1234254545,
+        "userName": "User4",
+        "rating": 5,
+        "review": "The hot springs were a perfect way to relax after a day of exploring!"
+      }
+    ],
+    "itinerary": [
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Glacier Hike in Anchorage"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Anchorage"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Glacier Hike in Denali National Park"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Denali National Park"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Traditional Alaskan Cuisine in Anchorage"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Anchorage"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Traditional Alaskan Cuisine in Denali National Park"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Free time to explore Denali National Park"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 1"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Anchorage"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Fairbanks"
+        }
+      ],
+      [
+        {
+          "time": "08:00AM",
+          "activity": "Breakfast at Cabin 2"
+        },
+        {
+          "time": "10:00AM",
+          "activity": "Departure from Denali National Park"
+        },
+        {
+          "time": "04:00PM",
+          "activity": "Arrival in Fairbanks"
+        }
+      ]
+    ],
+    "photos": [
+      "/static/8.jpg",
+      "/static/9.jpg",
+      "/static/10.jpg",
+      "/static/11.jpg"
+    ]
+  }
+]
