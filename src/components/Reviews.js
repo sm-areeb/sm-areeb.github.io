@@ -1,11 +1,36 @@
+import { useState } from "react";
+import { useParams } from "react-router";
+
 export default Reviews = ({ reviews }) => {
+  const packageId = useParams().id;
+  const sessionReview = sessionStorage.getItem(packageId);
+  const [userReview, setUserReview] = useState(
+    JSON.parse(sessionReview || "{}")
+  );
+
+  const handleReviewSubmit = (e) => {
+    e.preventDefault();
+    console.log(e);
+    const formData = new FormData(e.target);
+    const review = {
+      id: "You",
+      userid: "You",
+      userName: "You",
+      rating: formData.get("rating"),
+      review: formData.get("review"),
+    };
+    sessionStorage.setItem(packageId, JSON.stringify(review));
+    setUserReview(review);
+  };
+
+  const allReviews = userReview.rating ? [...reviews, userReview] : reviews;
   return (
     <>
       <h4 className="subtitle has-text-weight-bold">
         Reviews (Overall{" "}
-        {reviews.reduce((a, c) => a + c.rating, 0) / reviews.length}/5)
+        {allReviews.reduce((a, c) => a + c.rating, 0) / allReviews.length}/5)
       </h4>
-      {reviews.map((review) => (
+      {allReviews.map((review) => (
         <div key={review.id} className="box">
           <article className="media">
             <div className="media-left">
@@ -35,6 +60,37 @@ export default Reviews = ({ reviews }) => {
           </article>
         </div>
       ))}
+      {!userReview.rating && (
+        <div className="box">
+          <h4 className="subtitle has-text-weight-bold">Create a review</h4>
+          <form onSubmit={handleReviewSubmit}>
+            <div className="field my-4">
+              <label className="label">Rating:</label>
+              <div className="control">
+                <div className="select">
+                  <select name="rating">
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <textarea
+              className="textarea my-4"
+              name="review"
+              placeholder="Add a review"
+            ></textarea>
+            <div className="control">
+              <button type="submit" className="button is-link">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      )}
     </>
   );
 };
