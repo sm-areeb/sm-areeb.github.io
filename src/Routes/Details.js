@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ItineraryPanel from "../components/ItineraryPanel";
+import Reviews from "../components/Reviews";
 
 export default Details = () => {
   const location = useLocation();
@@ -43,7 +44,7 @@ export default Details = () => {
         </nav>
         <nav className="level my-5 py-5">
           <div className="level-item has-text-centered">
-            <div class="select is-rounded">
+            <div className="select is-rounded">
               <select>
                 <option>Select a Date</option>
                 {details.bookings.map(({ available, date }) => (
@@ -55,9 +56,10 @@ export default Details = () => {
             </div>
           </div>
           <div className="level-item has-text-centered">
-            <button class="button is-success is-rounded">Book now</button>
+            <button className="button is-success is-rounded">Book now</button>
           </div>
         </nav>
+        <Reviews reviews={details.reviews} />
       </div>
     </div>
   );
