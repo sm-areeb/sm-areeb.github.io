@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
 
-export default Browse = () => {
+export default function Browse() {
   const [packages, setPackages] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
@@ -54,4 +54,4 @@ export default Browse = () => {
       </div>
     </div>
   );
-};
+}

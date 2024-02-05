@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-export default RootLayout = () => {
+export default function RootLayout() {
   return (
     <>
       <header className="py-3">
@@ -27,4 +27,4 @@ export default RootLayout = () => {
       <footer></footer>
     </>
   );
-};
+}

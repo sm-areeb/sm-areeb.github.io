@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default ItineraryPanel = ({ itinerary }) => {
+export default function ItineraryPanel({ itinerary }) {
   const [activeTab, setActiveTab] = useState(0);
   return (
     <div className="mt-5">
@@ -30,4 +30,4 @@ export default ItineraryPanel = ({ itinerary }) => {
       </article>
     </div>
   );
-};
+}

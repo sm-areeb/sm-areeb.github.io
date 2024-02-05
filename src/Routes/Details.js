@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ItineraryPanel from "../components/ItineraryPanel";
 import Reviews from "../components/Reviews";
 
-export default Details = () => {
+export default function Details() {
   const location = useLocation();
   const details = location.state;
   return (
@@ -63,4 +63,4 @@ export default Details = () => {
       </div>
     </div>
   );
-};
+}

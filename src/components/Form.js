@@ -1,4 +1,4 @@
-export default Form = () => {
+export default function Form() {
   return (
     <div className="form">
       <div className="field">
@@ -184,4 +184,4 @@ export default Form = () => {
       </div>
     </div>
   );
-};
+}

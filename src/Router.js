@@ -5,7 +5,7 @@ import Browse from "./Routes/Browse";
 import Create from "./Routes/Create";
 import Details from "./Routes/Details";
 
-export default router = createBrowserRouter([
+export default createBrowserRouter([
   {
     path: "",
     element: <RootLayout />,

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useParams } from "react-router";
 
-export default Reviews = ({ reviews }) => {
+export default function Reviews({ reviews }) {
   const packageId = useParams().id;
   const sessionReview = sessionStorage.getItem(packageId);
   const [userReview, setUserReview] = useState(
@@ -93,4 +93,4 @@ export default Reviews = ({ reviews }) => {
       )}
     </>
   );
-};
+}

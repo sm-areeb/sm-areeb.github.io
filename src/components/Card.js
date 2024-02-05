@@ -1,4 +1,4 @@
-export default Card = (props) => {
+export default function Card(props) {
   const {
     image,
     title,
@@ -51,4 +51,4 @@ export default Card = (props) => {
       </footer>
     </div>
   );
-};
+}
